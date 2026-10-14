@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "godslayer",
+  "version": "${version}",
+  "name": "GOD SLAYER - Demon Slayer x OP Tools",
+  "description": "Godlike OP Tools + All 14 Demon Slayer Breathings with Forms, Nichirin Swords, Particles, Animations. Press R to switch Breathing, V for Form, G for God Mode.",
+  "authors": ["GodSlayer Team"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/godslayer/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.godslayer.GodSlayerMod"],
+    "client": ["com.godslayer.client.GodSlayerClient"]
+  },
+  "mixins": ["godslayer.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "fabric-api": "*",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}

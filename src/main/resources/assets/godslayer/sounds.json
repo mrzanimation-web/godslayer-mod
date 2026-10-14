@@ -1,0 +1,5 @@
+{
+  "katana_slash": { "sounds": [{ "name": "godslayer:katana_slash", "stream": false }], "subtitle": "sound.godslayer.katana_slash" },
+  "breathing_activate": { "sounds": [{ "name": "godslayer:breathing_activate", "stream": false }], "subtitle": "sound.godslayer.breathing_activate" },
+  "god_pulse": { "sounds": [{ "name": "godslayer:god_pulse", "stream": false }], "subtitle": "sound.godslayer.god_pulse" }
+}
